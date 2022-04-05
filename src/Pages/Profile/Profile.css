@@ -29,6 +29,14 @@
   font-weight: 600;
   cursor: pointer;
 }
+.profile-users-name{
+  text-align: center;
+  
+  }
+  .profile-users-role{
+ text-align: center;
+  
+  }
 .profile-contents-div {
   display: flex;
   gap: 20px;
@@ -112,7 +120,7 @@ color: #141E38;
     padding: 5px;
   }
   .profile-contents-div p {
-    font-size: 60%;
+    font-size: 80%;
   }
   .profile-users-name{
   font-size:25px;
@@ -132,12 +140,24 @@ color: #141E38;
 }
 
   
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 385px) {
   
   .profile-users-name{
-  font-size:17px;
+  font-size:25px;
   
   }
+  .profile-users-role{
+  font-size:20px;
+  
+  }
+}
+@media screen and (max-width: 300px) {
+  
+  .profile-users-name{
+  font-size:18px;
+  
+  }
+  
 }
   
 

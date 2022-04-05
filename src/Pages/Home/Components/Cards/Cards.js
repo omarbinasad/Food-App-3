@@ -8,8 +8,6 @@ const Cards = () => {
       <div className="cards-div">
         <SingleCard />
         <SingleCard />
-        <SingleCard />
-        <SingleCard />
       </div>
       <div className="mt-5 cards-div collapse" id="viewdetails">
         <SingleCard />

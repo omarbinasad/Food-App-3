@@ -56,7 +56,6 @@ const Profile = () => {
                 </label>
               </div>
               <div className="profile-users-nameRole-div">
-               
                 <h2 className="profile-users-name">John Doe</h2>
                 <p className="profile-users-role">Business Magnet</p>
               </div>

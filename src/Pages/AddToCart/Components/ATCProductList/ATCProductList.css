@@ -141,9 +141,11 @@
 }
 
 .atc-payment-details li p {
+  font-family: "Baloo Da 2";
   width: auto;
   display: flex;
   align-items: center;
+  color: #516787;
 }
 .form-check-input {
   border-radius: 0px !important;
@@ -157,8 +159,7 @@
 }
 
 .atc-useWallet-div {
-  padding: 
-  20px 25px;
+  padding: 20px 25px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -199,6 +200,7 @@
   justify-content: center;
 }
 .atc-useWallet-text-div p {
+  font-family: "Baloo Da 2";
   margin: 0;
 }
 .atc-useWallet-text-div h3 {

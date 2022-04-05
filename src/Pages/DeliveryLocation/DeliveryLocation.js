@@ -1,4 +1,5 @@
 import React from "react";
+import "./DeliveryLocation.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faArrowLeft,
@@ -15,7 +16,7 @@ const DeliveryLocation = () => {
   return (
     <div className="container">
       <div>
-        <section className="container p-5">
+        <section className="container py-5 px-3">
           <div className="d-flex ">
             <p style={{ color: "#7C90B8" }}>
               <FontAwesomeIcon
@@ -25,11 +26,13 @@ const DeliveryLocation = () => {
               Back
             </p>
 
-            <h4 className="text-center text-dark mx-auto">Add Location</h4>
+            <h4 className="add-location-title text-center text-dark mx-auto">
+              Add Location
+            </h4>
           </div>
         </section>
         <section className="container">
-          <form>
+          <form className="deliveryLocation-form">
             <h5>Name</h5>
             <input
               className="form-style"
@@ -102,29 +105,35 @@ const DeliveryLocation = () => {
           </Card>
         </section>
         <section className="my-2">
-          <Card className="w-100 formCard container">
-            <Card.Body>
+          <Card className="w-100 formCard container ">
+            <Card.Body className="p-0">
               <div className="d-flex justify-content-between">
                 <p
+                  className="deliveryLocation-switch-text"
                   style={{
                     color: "#516787",
                   }}
                 >
-                  {" "}
                   Create default shipping address
                 </p>
-                <FormControlLabel control={<Switch color="warning" />} />
+                <FormControlLabel
+                  sx={{ marginRight: "0" }}
+                  control={<Switch color="warning" />}
+                />
               </div>
               <div className="d-flex justify-content-between">
                 <p
+                  className="deliveryLocation-switch-text"
                   style={{
                     color: "#516787",
                   }}
                 >
-                  {" "}
                   Create default billing address
                 </p>
-                <FormControlLabel control={<Switch color="warning" />} />
+                <FormControlLabel
+                  sx={{ marginRight: "0" }}
+                  control={<Switch color="warning" />}
+                />
               </div>
             </Card.Body>
           </Card>

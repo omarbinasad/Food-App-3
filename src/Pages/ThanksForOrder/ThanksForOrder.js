@@ -8,8 +8,13 @@ const ThanksForOrder = () => {
       <div className="container tfo-wraper">
         <h3>Thanks for Order</h3>
         <img className="img-fluid" src="/images/check.png" alt="check-img" />
-        <h2>Your Order is Successfully placed.</h2>
-        <p>Your Order Number is 8077</p>
+
+        <div className="tfo-texts-div">
+          
+          <h2>Your Order is Successfully placed.</h2>
+          <p>Your Order Number is 8077</p>
+        </div>
+
         <button className="tfo-order-detail-btn">
           <Link
             style={{

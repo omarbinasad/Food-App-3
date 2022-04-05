@@ -4,7 +4,7 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -27,6 +27,14 @@ p {
   color: #141e38;
   font-weight: 600;
 }
+.tfo-texts-div{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
 .tfo-wraper h3 {
   font-family: "georgia";
   font-size: 20px;
@@ -42,13 +50,13 @@ p {
 }
 @media screen and (max-width: 768px) {
   .tfo-order-detail-btn {
-    width: 100%;
+    width: 90%;
   }
  
 }
 @media screen and (max-width: 440px) {
   .tfo-order-detail-btn {
-    width: 100%;
+    width: 90%;
   }
   .tfo-wraper h2 {
     font-family: "georgia";

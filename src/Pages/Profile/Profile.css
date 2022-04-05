@@ -46,8 +46,23 @@
   margin-left: -50px;
 }
 
-.profile-img-div {
-  /* margin-right: -45px; */
+.profile-users-name{
+  font-family: 'Georgia';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #141E38;
+
+}
+.profile-users-nameRole-div{                                                 
+  display: flex;   
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;                                                                                                                    
 }
 
 .profile-desc-input {
@@ -59,7 +74,7 @@
   font-size: 16px;
   border-right: 0;
   border-left: 0;
-  padding: 16px;
+  padding: 16px 0px;
 }
 .profile-desc-input:focus {
   outline: none;
@@ -68,6 +83,7 @@
   /* width: 50%; */
   display: flex;
   flex-direction: column;
+  margin-bottom: 100px;
 
   /* gap: 20px; */
 }
@@ -81,7 +97,8 @@
   color: #141e38;
 }
 .profile-desc-div p {
-  color: #97a9c2b0;
+  padding: 16px 0px;
+  color: #445d80b0;
   font-size: 15px;
   font-weight: 500;
 }
@@ -97,11 +114,32 @@
   .profile-contents-div p {
     font-size: 60%;
   }
-  .profile-contents-div h2 {
-    font-size: 80%;
+  .profile-users-name{
+  font-size:25px;
+  
+  }
+
+  .profile-desc-input {
+    padding: 7px 0px;
+  }
+  .profile-desc-div p{
+    padding:7px 0px;
   }
   /* .profile-contents-wraper {
     width: 100%;
     flex-direction: column;
   } */
 }
+
+  
+@media screen and (max-width: 375px) {
+  
+  .profile-users-name{
+  font-size:17px;
+  
+  }
+}
+  
+
+
+

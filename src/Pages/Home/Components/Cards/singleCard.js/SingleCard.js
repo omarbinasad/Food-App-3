@@ -10,6 +10,7 @@ const SingleCard = () => {
       <div className="card-top">
         <p>Kashmiri Chicken Birya..</p>
         <Fab
+        className="card-fab-btn"
           size="small"
           sx={{
             backgroundColor: "#FFEEE4",

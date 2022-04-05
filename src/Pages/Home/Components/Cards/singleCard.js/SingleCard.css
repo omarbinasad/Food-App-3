@@ -112,3 +112,11 @@
     font-size: 95%;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .card-fab-btn{
+    margin-left: 10px !important;
+    width: 50px !important;
+    height: 40px !important;
+  }
+}

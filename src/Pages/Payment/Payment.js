@@ -1,4 +1,5 @@
 import React from "react";
+import "./Payment.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faArrowLeft,
@@ -21,7 +22,7 @@ const Payment = () => {
   };
   return (
     <div className="container">
-      <section className="container py-5">
+      <section className="container py-4">
         <div className="d-flex ">
           <p style={{ color: "#7C90B8" }}>
             <FontAwesomeIcon
@@ -159,19 +160,19 @@ const Payment = () => {
         </Card>
       </section>
 
-      <section className="container mt-3">
-        <h3>Delivery Address</h3>
-        <p>Table no: (Optional)</p>
+      <section className=" container mt-3">
+        <h3 className="delivery-adress-title">Delivery Address</h3>
+        <p className="delivery-tableNo-text">Table no: (Optional)</p>
 
-        <div className="subsForm-div">
-          <form className="subsForm" action="">
+        <div className="orderForm-div">
+          <form className="orderForm" action="">
             <input type="text" placeholder="Order no." />
           </form>
         </div>
 
-        <section className="d-flex justify-content-between my-5 mx-auto">
+        <section className="d-flex justify-content-between my-4 mx-auto">
           <div className="">
-            <p className="text-dark w-100">Total Price</p>
+            <p className="text-dark w-100 mb-1">Total Price</p>
             <h4 className="text-dark">$50.40</h4>
           </div>
 
@@ -179,7 +180,6 @@ const Payment = () => {
             style={{ height: "60px", width: "200px" }}
             className="button-praimary "
           >
-            {" "}
             Place Order{" "}
           </button>
         </section>

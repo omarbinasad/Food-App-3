@@ -1,3 +1,20 @@
+
+.oc-top-bar {
+  margin-bottom: -70px;
+  padding: 20px ;
+  width: 100%;
+  display: flex;
+ 
+  /* background-color: #ffffff; */
+}
+.oc-top-bar > a {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  z-index: 3;
+}
+
 .OCBanner-div {
   /* background-image: url("/public/images/burgerBanner.png"); */
   background-repeat: no-repeat;

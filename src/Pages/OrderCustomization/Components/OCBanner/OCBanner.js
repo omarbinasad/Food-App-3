@@ -1,9 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./OCBanner.css";
 
 const OCBanner = () => {
   return (
     <section className="">
+      <div className="container oc-top-bar">
+        <Link to="/">
+          <i className="text-white fa-solid fa-arrow-left-long"></i> Back
+        </Link>
+      </div>
       <div className="d-flex justify-content-center">
         <img
           className="img-fluid"

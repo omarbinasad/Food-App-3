@@ -1,0 +1,21 @@
+
+.delivery-adress-title{
+    font-family: 'Baloo Da 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px; 
+    color: #141E38;
+}
+.orderForm-div > .orderForm> input{
+    width: 100%;
+padding: 14px;
+background: #ECF6FF;
+border: 1px solid #BACAE4;
+box-sizing: border-box;
+box-shadow: inset 4px 4px 5px rgba(158, 171, 214, 0.15);
+border-radius: 45px;
+}
+.delivery-tableNo-text{
+    margin-bottom: 7px;
+}

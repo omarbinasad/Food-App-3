@@ -61,7 +61,7 @@ const Varietions = () => {
           <h3
             style={{
               textAlign: "center ",
-              marginBottom: "-50px",
+              marginBottom: "-35px",
               marginTop: "10px",
               color: "white",
               fontSize: "20px",
@@ -87,7 +87,8 @@ const Varietions = () => {
                 backgroundSize: "100%",
                 backgroundRepeat: "no-repeat",
                 backgroundPosition: "center",
-                width: "90px",
+                width: "75px",
+                marginLeft: "5px",
                 height: "50px",
                 marginBottom: "-15px",
                 backgroundColor: "transparent",
@@ -99,7 +100,7 @@ const Varietions = () => {
               sx={{
                 fontFamily: "Baloo Da 2",
                 textTransform: "capitalize",
-                margin: "50px 0px 30px 0px",
+                margin: "40px 0px 30px 0px",
                 color: "#fff",
               }}
               icon={
@@ -117,7 +118,7 @@ const Varietions = () => {
               sx={{
                 fontFamily: "Baloo Da 2",
                 textTransform: "capitalize",
-                margin: "50px 0px 30px 0px",
+                margin: "40px 0px 30px 0px",
                 color: "#fff",
               }}
               icon={
@@ -135,7 +136,7 @@ const Varietions = () => {
               sx={{
                 fontFamily: "Baloo Da 2",
                 textTransform: "capitalize",
-                margin: "50px 0px 30px 0px",
+                margin: "40px 0px 30px 0px",
                 color: "#fff",
               }}
               icon={

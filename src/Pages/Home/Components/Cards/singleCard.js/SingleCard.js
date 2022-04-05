@@ -15,6 +15,7 @@ const SingleCard = () => {
             backgroundColor: "#FFEEE4",
             color: "#FF5C00",
             boxShadow: "none",
+            zIndex: "0",
             "&:hover": {
               backgroundColor: "#FFEEE4",
             },

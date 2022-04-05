@@ -157,7 +157,8 @@
 }
 
 .atc-useWallet-div {
-  padding: 20px25px;
+  padding: 
+  20px 25px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -315,10 +316,10 @@ input::placeholder {
 
 @media screen and (min-width: 20px) and (max-width: 500px) {
   .atcProductName-div > p {
-    font-size: 10px;
+    font-size: 11px;
   }
   .atcProductName-div > img {
-    width: 10%;
+    width: 6%;
   }
   .atc-price-action-div i {
     font-size: 70%;

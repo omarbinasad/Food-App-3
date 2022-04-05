@@ -8,15 +8,15 @@ const BestOffers = () => {
         <h3 className="bestOffers-title text-start or-divider">Best Offers</h3>
         <a href="/">See all</a>
       </div>
+      {/* scrollable tab start */}
+
       <div className="bestOffers-div-main">
         <div className="bestOffer-div">
           <div className="bestOffers-img-div">
             <img className="img-fluid" src="/images/bestoffer.png" alt="" />
           </div>
           <div className="bestOffers-text-div">
-            <p>
-              Get Fresh Start At 50/- only
-            </p>
+            <p>Get Fresh Start At 50/- only</p>
           </div>
           <div className="bestOffers-btn-div">
             <button className="bestOffers-btn">
@@ -29,9 +29,7 @@ const BestOffers = () => {
             <img className="img-fluid" src="/images/bestoffer2.png" alt="" />
           </div>
           <div className="bestOffers-text-div">
-            <p>
-              Get Fresh Start At 50/- only
-            </p>
+            <p>Get Fresh Start At 50/- only</p>
           </div>
           <div className=" bestOffers-btn-div">
             <button className="bestOffers-btn">

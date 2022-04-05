@@ -1,8 +1,16 @@
 .bestOffers-div-main {
   display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  /* display: flex; */
   gap: 0px 10px;
   margin: 20px 0px;
 }
+.bestOffers-div-main::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
 .bestOffers-title {
   color: #1c1c1c;
   font-size: 22px;
@@ -10,6 +18,15 @@
   display: flex;
   text-align: start;
   margin: 0;
+}
+.bestOffer-div {
+  width: 250px;
+  height:100px;
+  flex: 0 0 auto;
+  display: flex;
+  background-color: #f9bf6a;
+  border-radius: 10px;
+  padding: 5px;
 }
 .bestOffers-title-div {
   display: flex;
@@ -37,7 +54,7 @@
   align-items: center;
 }
 .bestOffers-text-div > p {
-  font-size: 25px;
+  font-size: 16px;
   font-weight: 600;
   margin: 0;
 }
@@ -56,13 +73,9 @@
   font-size: 30px;
   color: #ff5c00;
 }
-.bestOffer-div {
-  display: flex;
-  background-color: #f9bf6a;
-  border-radius: 10px;
-  padding: 5px;
-}
+
 .bestOffer-div:nth-child(2n) {
+  
   background-color: #ffdbaf;
 }
 
@@ -72,7 +85,7 @@
     width: 40%;
   }
   .bestOffers-text-div > p {
-    font-size: 65%;
+    font-size: 85%;
   }
   .bestOffers-btn i {
     font-size: 80%;

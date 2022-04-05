@@ -4,7 +4,7 @@ import Badge from "@mui/material/Badge";
 const TopNavBar = () => {
   return (
     <div className="container">
-      <nav className="navbar navbar-default bg-light">
+      <nav className="navbar navbar-default ">
         <div className="TopNavBarWraper container-fluid">
           <form className="d-flex has-search">
             <i className="fa fa-search form-control-feedback"></i>

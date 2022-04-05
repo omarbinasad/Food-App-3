@@ -3,6 +3,9 @@ import "./App.css";
 import AddToCart from "./Pages/AddToCart/AddToCart";
 import DeliveryLocation from "./Pages/DeliveryLocation/DeliveryLocation";
 import FeedBack1 from "./Pages/FeedBack1/FeedBack1";
+import FeedBack2 from "./Pages/FeedBack2/FeedBack2";
+import FeedBack3 from "./Pages/FeedBack3/FeedBack3";
+import FeedBack4 from "./Pages/FeedBack4/FeedBack4";
 import FeedBackThankyou from "./Pages/FeedBackThankyou/FeedBackThankyou";
 import Home from "./Pages/Home/Home";
 import OrderCustomization from "./Pages/OrderCustomization/OrderCustomization";
@@ -35,6 +38,9 @@ function App() {
           <Route path="/payment" element={<Payment />}></Route>
           <Route path="/splashScreen" element={<SplashScreen />}></Route>
           <Route path="/feedback-1" element={<FeedBack1 />}></Route>
+          <Route path="/feedback-2" element={<FeedBack2 />}></Route>
+          <Route path="/feedback-3" element={<FeedBack3 />}></Route>
+          <Route path="/feedback-4" element={<FeedBack4 />}></Route>
           <Route path="/splash-screen" element={<SplashScreen />}></Route>
           <Route
             path="/feedback-thankyou"

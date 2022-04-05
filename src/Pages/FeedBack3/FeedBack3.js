@@ -1,5 +1,5 @@
 import React from "react";
-import "./FeedBack1.css";
+import "./FeedBack3.css";
 import PropTypes from "prop-types";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
@@ -45,27 +45,24 @@ function a11yProps(index) {
   };
 }
 
-const FeedBack1 = () => {
-  const [value, setValue] = React.useState("");
+const FeedBack3 = () => {
+  const [value, setValue] = React.useState(1);
   const theme = useTheme();
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
   return (
-    <div className="feedback-main-wraper">
-      <div className="feedBack-banner"></div>
-      <div className="feedBack-half-div-wraper">
-        <h3 className="feedBack-half-div-title">How was your food ?</h3>
-        <div className="feedBack-rating-div">
-          <p className="feedBack-rating-text">
-            Your rating is always helpful for us improve
-          </p>
-          <div className="feedBack-imoji-div">
+    <div className="FeedBack3-main-wraper">
+      <div className="FeedBack3-banner"></div>
+      <div className="FeedBack3-half-div-wraper">
+        <div className="FeedBack3-rating-div">
+          <div className="FeedBack3-imoji-div">
             <Box sx={{ width: "100%" }}>
               <Box sx={{ width: "100%", borderBottom: 0 }}>
                 <Tabs
+                  className="feedback-tabs-main"
                   sx={{
-                    // marginTop: "-50px",
+                    // marginTop: "-70px",
                     width: "100%",
                     backgroundColor: "transparent",
                     padding: "0px",
@@ -82,8 +79,6 @@ const FeedBack1 = () => {
                   }}
                 >
                   <Tab
-                    component={Link}
-                    to="/feedback-4"
                     label="Tasty"
                     sx={{
                       //   margin: "50px 0px",
@@ -91,6 +86,7 @@ const FeedBack1 = () => {
                       fontWeight: "600",
                       fontSize: "1.2rem",
                       textTransform: "capitalize",
+                     
                       "&.Mui-selected": {
                         color: "#FF5C00",
 
@@ -112,8 +108,6 @@ const FeedBack1 = () => {
                     aria-label="phone"
                   />
                   <Tab
-                    component={Link}
-                    to="/feedback-3"
                     label="Good"
                     sx={{
                       //   margin: "50px 0px",
@@ -142,12 +136,10 @@ const FeedBack1 = () => {
                     aria-label="phone"
                   />
                   <Tab
-                    component={Link}
-                    to="/feedback-2"
                     label="Bad!"
                     sx={{
                       height: "25vh",
-                      //   margin: "50px 0px",
+                      marginBottom: "50px 0px",
                       fontFamily: "georgia",
                       fontWeight: "600",
                       fontSize: "1.2rem",
@@ -183,22 +175,22 @@ const FeedBack1 = () => {
                   />
                 </Tabs>
               </Box>
-              {/* <TabPanel value={value} index={0}>
-                <div className="feedBack-tab-items">
-                  <div className="fb-tab-btns-wraper">
+              <TabPanel value={value} index={0}>
+                <div className="FeedBack3-tab-items">
+                  <div className="fb3-tab-btns-wraper">
                     <button className="">Poor service</button>
                     <button className="">Too much oily</button>
                   </div>
-                  <div className="fb-tab-btns-wraper">
+                  <div className="fb3-tab-btns-wraper">
                     <button className="">Bad Food</button>
                     <button className="">Bad taste</button>
                   </div>
-                  <div className="fb-avrgtaste-btn-div">
-                    <button className="fb-avrgtaste-btn">
+                  <div className="fb3-avrgtaste-btn-div">
+                    <button className="fb3-avrgtaste-btn">
                       Taste is average
                     </button>
                   </div>
-                  <div className="feedback-sugestion-txt-div">
+                  <div className="FeedBack3-sugestion-txt-div">
                     <h3>Suggestion/Advice</h3>
                     <textarea
                       placeholder="Write feedback here..."
@@ -211,21 +203,21 @@ const FeedBack1 = () => {
                 </div>
               </TabPanel>
               <TabPanel value={value} index={1}>
-                <div className="feedBack-tab-items">
-                  <div className="fb-tab-btns-wraper">
+                <div className="FeedBack3-tab-items">
+                  <div className="fb3-tab-btns-wraper">
                     <button className="">Poor service</button>
                     <button className="">Too much oily</button>
                   </div>
-                  <div className="fb-tab-btns-wraper">
+                  <div className="fb3-tab-btns-wraper">
                     <button className="">Bad Food</button>
                     <button className="">Bad taste</button>
                   </div>
-                  <div className="fb-avrgtaste-btn-div">
+                  <div className="fb3-avrgtaste-btn-div">
                     <button className="fb-avrgtaste-btn">
                       Taste is average
                     </button>
                   </div>
-                  <div className="feedback-sugestion-txt-div">
+                  <div className="FeedBack3-sugestion-txt-div">
                     <h3>Suggestion/Advice</h3>
                     <textarea
                       placeholder="Write feedback here..."
@@ -238,21 +230,21 @@ const FeedBack1 = () => {
                 </div>
               </TabPanel>
               <TabPanel value={value} index={2}>
-                <div className="feedBack-tab-items">
-                  <div className="fb-tab-btns-wraper">
+                <div className="FeedBack3-tab-items">
+                  <div className="fb3-tab-btns-wraper">
                     <button className="">Poor service</button>
                     <button className="">Too much oily</button>
                   </div>
-                  <div className="fb-tab-btns-wraper">
+                  <div className="fb3-tab-btns-wraper">
                     <button className="">Bad Food</button>
                     <button className="">Bad taste</button>
                   </div>
-                  <div className="fb-avrgtaste-btn-div">
-                    <button className="fb-avrgtaste-btn">
+                  <div className="fb3-avrgtaste-btn-div">
+                    <button className="fb3-avrgtaste-btn">
                       Taste is average
                     </button>
                   </div>
-                  <div className="feedback-sugestion-txt-div">
+                  <div className="FeedBack3-sugestion-txt-div">
                     <h3>Suggestion/Advice</h3>
                     <textarea
                       placeholder="Write feedback here..."
@@ -263,11 +255,11 @@ const FeedBack1 = () => {
                     ></textarea>
                   </div>
                 </div>
-              </TabPanel> */}
+              </TabPanel>
             </Box>
           </div>
         </div>
-        <button className="feedBack-send-btn">
+        <button className="FeedBack3-send-btn">
           <Link to="/feedback-thankyou">
             SEND <i className="fa-solid fa-arrow-right-long"></i>
           </Link>
@@ -277,4 +269,4 @@ const FeedBack1 = () => {
   );
 };
 
-export default FeedBack1;
+export default FeedBack3;

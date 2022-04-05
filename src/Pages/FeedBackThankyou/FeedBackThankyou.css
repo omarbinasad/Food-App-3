@@ -1,0 +1,70 @@
+.feedBack-thankyou-main-wraper{
+  width: 100%;
+  max-height: 100vh !important;
+}
+.feedBack-thankyou-banner {
+  background-image: url("/public/images/fbBanner.png");
+  /* background-size: cover; */
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 40vh;
+  position: relative;
+  z-index: -1;
+}
+.fb-thanq-half-div-wraper {
+  position: absolute;
+  width: 100%;
+  height: 65vh;
+  bottom: 0 !important;
+  padding: 40px 50px;
+  /* margin-top: -50px; */
+  z-index: 2;
+  border-radius: 40px 40px 0px 0px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+}
+.feedBack-close-btn {
+  width: 50%;
+  background-color: transparent;
+  border-radius: 10px !important;
+  border: 1px solid #fe6900;
+  color: #fe6900;
+  font-family: "Baloo Da 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 15px 20px;
+  cursor: pointer;
+}
+
+.fb-thnq-title {
+  text-align: center;
+  font-family: "georgia";
+  font-weight: 600;
+  font-size: 25px;
+  color: #3a3c3f;
+}
+.fb-thnq-desc {
+  text-align: center;
+  font-family: 'Baloo Da 2';
+  font-weight: 600;
+  font-size: 15px;
+  color:  #516787;
+}
+@media screen and (max-width: 768px) {
+
+  .fb-thanq-half-div-wraper > img{
+    width: 90%;
+  }
+  .feedBack-close-btn {
+    width: 100%;
+  }
+  .fb-thnq-title{
+    font-size: 20px;
+  }
+ 
+}

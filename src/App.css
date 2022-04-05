@@ -1,0 +1,160 @@
+body {
+  background-color: #f4faff;
+  font-family: "Poppins", sans-serif;
+}
+.subsForm-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ec2a00;
+  padding: 40px;
+  border-radius: 30px 30px 0px 0px;
+  margin-bottom: 20px;
+}
+.subsForm-banner h3,
+h4 {
+  color: #fff;
+  font-weight: 600;
+}
+.subsForm-banner h3 {
+  font-size: 70px;
+}
+.subsForm-banner h4 {
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+.subsForm-banner img {
+  width: 300px;
+}
+.subsForm {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.subsForm input {
+  padding: 20px;
+  width: 100%;
+  height: 55px;
+  background: #ecf6ff;
+  border: 1px solid #bacae4;
+  box-sizing: border-box;
+  box-shadow: inset 4px 4px 5px rgba(158, 171, 214, 0.15);
+  border-radius: 40px;
+}
+.subsForm-div {
+  display: flex;
+  justify-content: center;
+}
+
+.subsForm button {
+  width: 100%;
+  padding: 15px 15px;
+  background: #ff5c00;
+  border-radius: 15px;
+  font-weight: 500;
+  font-size: 22px;
+  color: white;
+  letter-spacing: 2px;
+  border: none;
+}
+
+.button-praimary {
+  background: #ff5c00;
+  color: #ffffff;
+  border-radius: 10px;
+  border: 0px;
+}
+.button-white {
+  background: #e7eaf0;
+
+  color: #ffffff;
+  border-radius: 15px;
+  border: 0px;
+}
+.button-secondary {
+  background: #fff;
+  color: #7c90b8 !important;
+}
+.button-secondary:hover {
+  background: #ff5c00;
+  border-radius: 15px;
+  color: #ffffff !important;
+}
+
+.primaryclr {
+  background: #ff5c00;
+}
+
+/* Delevery Location */
+
+.form-style {
+  border: 0px;
+  background: none;
+}
+.formCard {
+  height: 100% !important;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.atc-bottom-btns-div {
+  padding: 50px 0;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.atc-bottom-btns-div button {
+  width: 50%;
+  background-color: #fe6900;
+  border-radius: 10px !important;
+  border: none;
+  color: #ffffff;
+  font-family: "Baloo Da 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 15px 20px;
+  cursor: pointer;
+}
+
+/* Product details Page */
+
+.productCard {
+  height: 100vh !important;
+  width: 100%;
+  border-radius: 40px;
+  margin-top: -200px;
+}
+.productCardImg {
+  height: 80px !important;
+  width: 92px !important;
+  margin-top: 50px;
+}
+.ptext {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+}
+
+@media screen and (max-width: 768px) {
+  .subsForm-banner {
+    padding: 30px;
+  }
+  .subsForm-banner h3 {
+    font-size: 40px;
+  }
+  .subsForm-banner h4 {
+    font-size: 20px;
+  }
+  .subsForm-banner img {
+    width: 200px;
+  }
+  .subsForm {
+    width: 100%;
+  }
+}

@@ -1,0 +1,238 @@
+.productDetails-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  height: 90vh;
+}
+.productDetails-main-img-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 20%; */
+  margin-bottom: -180px;
+}
+.productDetails-main-img-div img {
+  width: 350px;
+  z-index: 1;
+}
+.productDetails-main-contents-div {
+  width: 100%;
+  min-height: 66vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  /* align-items: center; */
+  background: #ffffff;
+  box-shadow: -1px 1px 20px rgba(22, 52, 111, 0.15);
+  border-radius: 40px 40px 0px 0px;
+  padding: 150px 40px 40px 40px;
+}
+.productDetails-main-contents-span-div {
+  justify-content: center;
+}
+.productDetails-main-contents-div p {
+  text-align: center;
+}
+
+.productDetails-main-contents-span-div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.productDetails-main-contents-span-div span {
+  font-family: "Baloo Da 2", cursive;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.productDetails-main-contents-title {
+  text-align: center;
+  font-family: "Baloo Da 2", cursive;
+  font-weight: 600;
+  font-size: 40px;
+}
+.productDetails-main-contents-desc {
+  font-family: "Baloo Da 2";
+  font-weight: 400;
+  font-size: 18px;
+  color: #7c90b8;
+}
+.productDetails-btns-wraper {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
+.product-quantity-btns-div {
+  background: #e7eaf0;
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+  border-radius: 10px !important;
+  padding: 16px 25px;
+}
+.input-group-text {
+  border: none;
+}
+.input-group-text > .product-quantity-minus {
+  color: #df0000;
+}
+.input-group-text > .product-quantity-plus {
+  color: #3bb77b;
+}
+.addToCart-btn {
+  background: #ff5c00;
+  border-radius: 10px;
+  font-size: 22px;
+  border: none;
+  color: #fff;
+  padding: 15px 30px;
+  background: #ff5c00;
+  font-family: "Baloo Da 2";
+  font-style: normal;
+  font-weight: 500;
+}
+.addToCart-btn a {
+  text-decoration: none;
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  .productDetails-main-contents-title {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .productDetails-main-img-div img {
+    width: 80%;
+  }
+  .productDetails-main-contents-span-div {
+    justify-content: start;
+  }
+  .productDetails-main-contents-title {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  .addToCart-btn {
+    font-size: 15px;
+    /* padding: 8px 20px; */
+  }
+  .product-quantity-btns-div {
+    padding: 9px 20px;
+  }
+  .productDetails-main-contents-div p {
+    text-align: start;
+  }
+}
+@media screen and (max-width: 400px) {
+  .productDetails-main-img-div img {
+    transform: translateY(-20px);
+  }
+  .productDetails-main-contents-title {
+    font-size: 25px;
+    margin-top: 65px;
+    margin-bottom: 5px;
+  }
+  .productDetails-main-contents-desc {
+    font-size: 15px;
+  }
+  .productDetails-main-contents-span-div {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .productDetails-main-contents-span-div span {
+    font-size: 15px;
+  }
+
+  .addToCart-btn {
+    font-size: 16px;
+    padding: 10px 25px;
+  }
+  .product-quantity-btns-div {
+    padding: 5px 15px;
+  }
+  .productDetails-btns-wraper {
+    gap: 1.3rem;
+    /* justify-content: space-between; */
+  }
+
+  .productDetails-main-contents-div {
+    padding: 35px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .productDetails-main-contents-div {
+    min-height: 55vh;
+  }
+  .productDetails-main-img-div img {
+    width: 80%;
+    transform: translateY(-50px);
+  }
+  .productDetails-main-contents-title {
+    font-size: 25px;
+    margin-top: 25px;
+  }
+  .productDetails-main-contents-span-div span {
+    font-size: 13px;
+  }
+  .productDetails-main-contents-desc {
+    font-size: 15px;
+  }
+  .addToCart-btn {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+  .product-quantity-btns-div {
+    padding: 5px 10px;
+  }
+  .productDetails-btns-wraper {
+    gap: 1rem;
+  }
+}
+@media screen and (max-width: 330px) {
+  .productDetails-btns-wraper {
+    gap: 10px;
+  }
+  .addToCart-btn {
+    font-size: 15px;
+    padding: 10px 8px;
+    font-size: 12px;
+  }
+  .product-quantity-btns-div {
+    padding: 4px;
+  }
+}
+@media screen and (max-width: 290px) {
+  .productDetails-main-contents-title {
+    font-size: 20px;
+  }
+  .productDetails-main-contents-span-div span {
+    font-size: 10px;
+  }
+  .productDetails-main-contents-div p {
+    font-size: 13px;
+  }
+  .productDetails-main-contents-div {
+    padding: 10px;
+  }
+  .productDetails-btns-wraper {
+    gap: 8px;
+  }
+  .addToCart-btn {
+    font-size: 10px;
+    padding: 5px 6px;
+    font-size: 12px;
+    border-radius: 7px;
+  }
+
+  .product-quantity-btns-div {
+    padding: 1px;
+    font-size: 10px;
+  }
+}

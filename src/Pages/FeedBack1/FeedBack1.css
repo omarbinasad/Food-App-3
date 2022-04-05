@@ -1,0 +1,175 @@
+.feedback-main-wraper{
+  width: 100%;
+  max-height: 100vh !important;
+}
+
+.feedBack-banner {
+  background-image: url("/public/images/fbBanner.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  z-index: -1;
+}
+.feedBack-half-div-wraper {
+  /* position: absolute; */
+  width: 100%;
+  /* height: 70vh; */
+  bottom: 0 !important;
+  padding: 30px 50px 40px 50px;
+  margin-top: -60px;
+  z-index: 2;
+  border-radius: 40px 40px 0px 0px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+}
+.feedBack-send-btn {
+  width: 50%;
+  background-color: #fe6900;
+  border-radius: 10px !important;
+  border: none;
+  color: #ffffff;
+  font-family: "Baloo Da 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 15px 20px;
+  cursor: pointer;
+}
+.feedBack-send-btn a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.fb-tab-btns-wraper {
+  display: flex;
+  gap: 15px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.feedBack-tab-items {
+  display: flex;
+  flex-direction: column;
+
+  gap: 15px;
+}
+.fb-tab-btns-wraper > button {
+  width: 50%;
+  background-color: transparent;
+  border-radius: 10px !important;
+  border: 1px solid #97a9c2b0;
+  color: #8196b3;
+  font-family: "Baloo Da 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.fb-avrgtaste-btn-div {
+  display: flex;
+  justify-content: center;
+}
+.fb-avrgtaste-btn {
+  width: 65%;
+  background-color: #fe6900;
+  border-radius: 10px !important;
+  border: none;
+  color: #ffffff;
+  font-family: "Baloo Da 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.feedback-sugestion-txt-div textarea {
+  width: 100%;
+  height: 100px;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  font-family: "Baloo Da 2";
+  font-style: normal;
+  font-weight: 600;
+  background-color: #c0d3ec79;
+  font-size: 15px;
+  color: #97a9c2f6;
+  padding: 15px;
+}
+.feedBack-half-div-title, .feedBack-rating-text{
+  text-align: center;
+}
+.feedBack-rating-text{
+  margin-bottom: 0;
+  color: #516787;;
+}
+.feedBack-half-div-title{
+  font-family: "georgia";
+  font-weight: 600;
+  font-size: 30px;
+
+}
+.feedback-sugestion-txt-div h3 {
+  text-align: center;
+  font-family: georgia;
+  font-weight: 600;
+}
+@media screen and (max-width: 768px) {
+  .feedBack-send-btn {
+    width: 90%;
+  }
+  .feedBack-half-div-wraper{
+    gap: 35px;
+  }
+  .feedBack-half-div-title{
+    margin-bottom: 30px;
+  }
+  .feedBack-rating-text{
+    margin-bottom: -30px;
+  }
+}
+@media screen and (max-width: 438px) {
+  .rating-tab-img{
+    width: 60px;
+  }
+  .feedBack-half-div-wraper{
+    padding: 30px 20px 40px 20px;
+  }
+  .feedBack-half-div-title{
+    font-size: 25px;
+  }
+  .fb-tab-btns-wraper > button{
+    font-size: 12px;
+  }
+  .fb-avrgtaste-btn{
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .rating-tab-img{
+    width: 40px;
+  }
+  .feedBack-half-div-wraper{
+    padding: 30px 20px 40px 20px;
+  }
+  .feedBack-half-div-title{
+    font-size: 20px;
+  }
+  .fb-tab-btns-wraper > button{
+    font-size: 12px;
+  }
+  .fb-avrgtaste-btn{
+    font-size: 15px;
+  }
+  .feedBack-rating-text{
+    font-size: 10px;
+  }
+}

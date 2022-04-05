@@ -1,0 +1,214 @@
+
+
+.order-tracking-top-bar {
+  padding: 20px ;
+  width: 100%;
+  display: flex;
+}
+.order-tracking-top-bar > a {
+  color: #7c90b8;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.order-tracking-text-div{
+  display: flex;
+  flex-direction: column;
+  /* gap: 20px; */
+}
+.order-tracking-main-wraper {
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  width: 100%;
+  max-height: 90vh;
+}
+.order-tracking-main-wraper h2 {
+  text-align: center;
+  font-family: georgia;
+  font-size: 25px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 15px;
+}
+.order-tracking-main-wraper h3 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+
+
+.OTC-main-img-div{
+  height: 60vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.OTC-progress-steper-container {
+  /* max-width: 1200px; */
+  /* margin: 0 auto; */
+}
+.step-indicator {
+  /* margin-top: 50px; */
+  display: flex;
+  align-items: center;
+  padding: 20px 40px 0 40px;
+}
+.step {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+  
+  
+}
+.step-indicator .step-icon {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  background: #c8cfdf;
+  font-size: 10px;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  line-height: 45px;
+  font-size: 20px;
+}
+.step.active  {
+  border-radius:50%;
+  padding:2px;
+  border:2px solid  #fe6900;
+}
+.step-icon.active  {
+ background-color: #fe6900;
+}
+
+.step p {
+  text-align: center;
+  position: absolute;
+  bottom: -40px;
+  /* color: #c2c2c2; */
+  font-size: 14px;
+  font-weight: bold;
+}
+.step.active p {
+  /* color: crimson; */
+}
+.step.step2 p, .step.step3 p {
+  width: max-content;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.indicator-line {
+  width: 100%;
+  height: 1px;
+  border-bottom:3px dashed  #fe6900;
+  background: transparent;
+  flex: 1;
+}
+.indicator-line.active {
+  background: transparent;
+}
+@media screen and (max-width: 500px) {
+  .order-tracking-main-wraper h3{
+    font-size: 20px;
+  }
+  .step p {
+    font-size: 11px;
+    /* bottom: -20px; */
+ }
+ .step-indicator{
+   padding: 0px 20px;
+ }
+}
+@media screen and (max-width: 350px) {
+  .step-indicator .step-icon{
+    height: 35px;
+    width: 35px;
+    line-height:35px;
+  }
+  .step-icon img{
+    width: 60%;
+  }
+ .step-indicator{
+   padding: 0px 20px;
+ }
+ .order-tracking-main-wraper h2{
+    font-size: 20px;
+ }
+ .order-tracking-main-wraper h3{
+   font-size: 15px;
+ }
+ .OTC-main-img-div img{
+   width: 80%;
+ }
+
+}
+@media screen and (max-width: 250px) {
+  .step-indicator .step-icon{
+    height: 35px;
+    width: 35px;
+    line-height:35px;
+  }
+ .step-indicator{
+   padding: 0px 5px;
+ }
+}
+
+
+.bike-img-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fe6900;
+  border-radius: 50%;
+  width: fit-content;
+  padding: 5px;
+}
+@media screen and (max-width: 768px) {
+  .order-progress-wraper li img {
+    padding: 3px;
+    width: 40px;
+    height: 40px;
+  }
+  .order-progress-wraper li p {
+    font-size: 10px;
+  }
+  .bike-img-div {
+    padding: 2px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .order-progress-wraper li p {
+    font-size: 8px;
+  }
+  .order-progress-wraper li{
+width: 15%;
+  }
+  .order-progress-wraper li img {
+    padding: 3px;
+    width: 35px;
+    height: 35px;
+  }
+  .order-tracking-main-wraper{
+    padding:10px;
+  }
+ 
+}
+@media screen and (max-width: 425px) {
+  .order-progress-wraper li img {
+    padding: 3px;
+    width: 25px;
+    height: 25px;
+  }
+  .order-progress-wraper li{
+    width: 25%;
+      }
+}
+

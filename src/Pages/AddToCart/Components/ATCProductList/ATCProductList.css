@@ -1,0 +1,374 @@
+.atc-productList-main {
+  padding: 0px;
+}
+.atcProductList {
+  padding: 0px 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  /* padding: 30px 0px; */
+}
+
+.atcProductList li {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.atcProductName-div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 50%;
+}
+.atcProductName-div > p {
+  text-align: start;
+
+  margin: 0;
+}
+
+.atcProductRight-div {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 12px;
+}
+.atc-price-action-div {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+.atc-price-action-div i {
+  font-size: 22px;
+  color: #df0000;
+  background-color: #ffeaea;
+  padding: 8px;
+  cursor: pointer;
+}
+.atc-price-action-div p {
+  font-family: "Baloo Da 2";
+  margin: 0;
+  font-weight: 600;
+  color: #141e38;
+}
+.atcProductQbtns-div {
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  border: 2px solid #97a9c2b0;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+.input-group-text {
+  background-color: transparent;
+  border: none;
+}
+.input-group-text > .product-quantity-minus {
+  color: #df0000;
+}
+.input-group-text > .product-quantity-plus {
+  color: #df0000 !important;
+}
+
+.atc-noteAdd-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  background-color: transparent;
+  color: #141e38;
+  border-top: 1px solid #97a9c2b0;
+  border-bottom: 1px solid #97a9c2b0;
+  border-left: 0;
+  border-right: 0;
+  padding: 20px 0px;
+  font-family: "Baloo Da 2";
+  font-weight: 600;
+  cursor: pointer;
+}
+.atc-useWallet-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  background-color: transparent;
+  border-top: 1px solid #97a9c2b0;
+  border-bottom: 1px solid #97a9c2b0;
+  border-left: 0;
+  border-right: 0;
+  padding: 20px 0px;
+}
+.atc-payment-details li {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.atc-payment-details {
+  padding: 0px 25px;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+.bold-txt {
+  font-weight: 600 !important;
+  color: #141e38 !important;
+}
+.atc-payment-details li h3 span {
+  font-family: "Baloo Da 2";
+  font-weight: 600;
+  color: #fe6900;
+}
+.atc-payment-details li h3 {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  font-family: "Baloo Da 2";
+  font-size: 20px;
+  font-weight: 500;
+  color: #516787;
+  margin: 0;
+}
+
+.atc-payment-details li p {
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+.form-check-input {
+  border-radius: 0px !important;
+  margin: 0;
+  border-color: #000000;
+  cursor: pointer;
+}
+.form-check-input:checked {
+  background-color: #fe6900;
+  border-color: #000000;
+}
+
+.atc-useWallet-div {
+  padding: 20px25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: transparent;
+  border-top: 1px solid #97a9c2b0;
+  border-bottom: 1px solid #97a9c2b0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.atc-useWallet-div h3 {
+  display: flex;
+  align-items: center;
+  font-family: "Baloo Da 2";
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+  margin: 0;
+}
+.atc-useWallet-input-div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.atc-useWallet-input-div label {
+  font-family: "Baloo Da 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  align-items: center;
+  color: #141e38;
+}
+.atc-useWallet-text-div {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.atc-useWallet-text-div p {
+  margin: 0;
+}
+.atc-useWallet-text-div h3 {
+  font-family: "Baloo Da 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  align-items: center;
+  color: #141e38;
+}
+
+.add-table-form {
+  padding: 0px 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.add-table-form label {
+  font-family: "georgia";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  align-items: center;
+  color: #141e38;
+}
+
+.add-table-form-input {
+  background-color: transparent;
+  width: 30%;
+  border-bottom: 1px solid #97a9c2b0;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  padding: 10px;
+}
+.add-table-form-input:focus {
+  outline: none;
+}
+input::placeholder {
+  color: #97a9c2b0;
+}
+.add-adsress-wraper {
+  background: #e6f0fa;
+  margin-top: 30px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.add-adsress-1st-half i {
+  color: red;
+}
+.add-adsress-1st-half p {
+  text-align: start;
+  margin: 0;
+  color: #51678777;
+}
+.add-adsress-1st-half h3 {
+  font-family: "Baloo Da 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #141e38;
+}
+.add-adsress-2nd-half h3 {
+  font-family: "Baloo Da 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration-line: underline;
+
+  color: #df0000;
+}
+.atc-bottom-btns-div {
+  padding: 30px 25px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.atc-bottom-btns-div button {
+  width: 50%;
+  background-color: #fe6900;
+  border-radius: 10px !important;
+  border: none;
+  color: #ffffff;
+  font-family: "Baloo Da 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 15px 20px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .add-table-form-input {
+    width: 90%;
+  }
+  .atcProductRight-div {
+    width: 60%;
+  }
+  .atc-Qbtn {
+    padding: 2px 5px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .atcProductRight-div {
+    width: 60%;
+  }
+  .atc-Qbtn {
+    padding: 2px 5px;
+  }
+}
+
+@media screen and (min-width: 20px) and (max-width: 500px) {
+  .atcProductName-div > p {
+    font-size: 10px;
+  }
+  .atcProductName-div > img {
+    width: 10%;
+  }
+  .atc-price-action-div i {
+    font-size: 70%;
+  }
+  .atc-price-action-div {
+    gap: 10px;
+  }
+  .atc-price-action-div p {
+    font-size: 10px;
+  }
+  .atc-Qbtn {
+    padding: 2px 8px;
+  }
+  .atcProductQbtns-div {
+    border: 1px solid #97a9c2b0;
+    border-radius: 5px;
+    padding: 0px;
+  }
+  .atc-bottom-btns-div button {
+    font-size: 16px;
+    padding: 10px;
+  }
+  .input-group-text > .product-quantity-minus {
+    font-size: x-small;
+  }
+  .input-group-text > .product-quantity-plus {
+    font-size: x-small;
+  }
+  .add-adsress-1st-half h3 {
+    font-size: 14px;
+  }
+  .add-adsress-1st-half p {
+    font-size: 10px;
+  }
+  .add-adsress-2nd-half h3 {
+    font-size: 10px;
+  }
+  .atcProductRight-div {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 20px) and (max-width: 310px) {
+  .atcProductName-div > p {
+    font-size: 7px;
+  }
+  .atc-price-action-div p {
+    font-size: 8px;
+  }
+  .atc-Qbtn {
+    padding: 2px 3px;
+  }
+}

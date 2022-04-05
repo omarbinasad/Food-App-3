@@ -1,0 +1,126 @@
+.splashScreen-main-wraper {
+  width: 100%;
+  /* height: 100vh; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* gap: 70px; */
+
+  /* padding: 50px; */
+}
+
+.splashScreen-contents-wraper {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+.splashScreen-mid-half-div {
+  padding: 0px 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.splashScreen-mid-half-div h5 {
+  text-align: center;
+  font-family: "Baloo Da 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+
+  color: #323f57;
+}
+.splashScreen-banner {
+  background-image: url("/public/images/ssBanner.png");
+  /* background-size: cover; */
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 50vh;
+}
+.splashScreen-mid-half-div img {
+  /* margin-top: -100px; */
+  width: 150px;
+  height: 100%;
+}
+.splashScreen-bottom-div {
+  padding: 0px 50px;
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.splashScreen-proceed-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  background-color: #fe6900;
+  border-radius: 10px !important;
+  border: none;
+  color: #ffffff;
+  font-family: "Baloo Da 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.splashScreen-main-wraper p {
+  text-align: center;
+  font-family: "Baloo Da 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+}
+.splashScreen-main-wraper p span {
+  color: #fe6900;
+}
+
+@media screen and (max-width: 768px) {
+  .splashScreen-proceed-btn {
+    width: 66%;
+  }
+
+  .splashScreen-banner {
+    background-size: cover;
+    background-position: top;
+  }
+}
+@media screen and (max-width: 300px) {
+  .splashScreen-mid-half-div h5 {
+    font-size: 13px;
+  }
+  .splashScreen-proceed-btn {
+    font-size: x-small;
+    padding: 5px;
+  }
+  .splashScreen-mid-half-div img {
+    width: 50%;
+    height: 50%;
+  }
+  .splashScreen-banner {
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 300px) {
+  .splashScreen-mid-half-div h5 {
+    font-size: 16px;
+  }
+  .splashScreen-banner {
+    background-size: cover;
+  }
+  .splashScreen-main-wraper p {
+    font-size: 10px;
+  }
+}

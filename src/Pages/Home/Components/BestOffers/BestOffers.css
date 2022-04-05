@@ -1,0 +1,93 @@
+.bestOffers-div-main {
+  display: flex;
+  gap: 0px 10px;
+  margin: 20px 0px;
+}
+.bestOffers-title {
+  color: #1c1c1c;
+  font-size: 22px;
+  font-weight: 600;
+  display: flex;
+  text-align: start;
+  margin: 0;
+}
+.bestOffers-title-div {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 10px 0px 0px;
+}
+.bestOffers-title-div > a {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.bestOffers-img-div {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+.bestOffers-img-div img {
+  width: 100%;
+}
+
+.bestOffers-text-div {
+  width: 35%;
+  display: flex;
+  align-items: center;
+}
+.bestOffers-text-div > p {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0;
+}
+.bestOffers-btn-div {
+  width: 25%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+}
+.bestOffers-btn {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+.bestOffers-btn i {
+  font-size: 30px;
+  color: #ff5c00;
+}
+.bestOffer-div {
+  display: flex;
+  background-color: #f9bf6a;
+  border-radius: 10px;
+  padding: 5px;
+}
+.bestOffer-div:nth-child(2n) {
+  background-color: #ffdbaf;
+}
+
+/* media queries for mobile phone  */
+@media screen and (max-width: 600px) {
+  .bestOffers-img-div {
+    width: 40%;
+  }
+  .bestOffers-text-div > p {
+    font-size: 65%;
+  }
+  .bestOffers-btn i {
+    font-size: 80%;
+  }
+}
+
+/* media queries for tab  */
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+  .bestOffers-img-div {
+    width: 40%;
+  }
+  .bestOffers-text-div > p {
+    font-size: 85%;
+  }
+  .bestOffers-btn i {
+    font-size: 100%;
+  }
+}

@@ -1,0 +1,67 @@
+.varietions-item-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+.varietions-item-list > li {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0px;
+  border-bottom: 1px solid #7c90b859;
+}
+
+.varietions-item-list > li > p {
+  text-align: center;
+  width: 90%;
+  font-family: "Baloo Da 2";
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.varietions-item-list > li > p > span {
+  color: #7c90b8;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .varietion-tab-img {
+    width: 55px;
+  }
+  .varietions-item-list > li > p {
+    font-size: 17px;
+  }
+  .variations-fab-btn {
+    width: 50px !important;
+    height: 40px !important;
+  }
+  .varietions-item-list > li > p > span {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .varietion-tab-img {
+    width: 35px;
+  }
+  .varietions-item-list > li > p {
+    font-size: 10px;
+  }
+
+  .variations-fab-btn {
+    width: 45px !important;
+    height: 10px !important;
+  }
+  .varietions-item-list > li > p > span {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 250px) {
+  .variations-fab-btn {
+    width: 45px !important;
+  }
+}

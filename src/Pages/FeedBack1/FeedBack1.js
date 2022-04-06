@@ -268,7 +268,7 @@ const FeedBack1 = () => {
           </div>
         </div>
         <button className="feedBack-send-btn">
-          <Link to="/feedback-thankyou">
+          <Link to="/feedback-1">
             SEND <i className="fa-solid fa-arrow-right-long"></i>
           </Link>
         </button>

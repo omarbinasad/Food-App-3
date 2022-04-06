@@ -1,7 +1,7 @@
 .profile-top-bar {
   padding: 20px 0px;
   width: 100%;
-  display: flex;
+  /* display: flex; */
   /* justify-content: space-between; */
 }
 .profile-top-bar > a {
@@ -10,6 +10,7 @@
   font-weight: 500;
   text-decoration: none;
 }
+
 
 .profile-main-div {
   min-height: 100vh;
@@ -51,7 +52,7 @@
   letter-spacing: 1px;
   font-weight: 600;
   flex: 2;
-  margin-left: -50px;
+  margin-top: -25px;
 }
 
 .profile-users-name{

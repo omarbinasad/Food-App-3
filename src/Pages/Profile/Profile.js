@@ -19,7 +19,7 @@ const Profile = () => {
         <div className="container profile-main-div">
           <div className="profile-top-bar">
             <Link to="/">
-              <i className="fa-solid fa-arrow-left-long"></i> Back
+              <i className="fa-solid fa-arrow-left-long"></i>Back
             </Link>
             <h3>Profile</h3>
           </div>

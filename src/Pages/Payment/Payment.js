@@ -13,10 +13,10 @@ import FormControlLabel from "@mui/material/FormControlLabel";
 import FormControl from "@mui/material/FormControl";
 import FormLabel from "@mui/material/FormLabel";
 import { Card, Form } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Payment = () => {
   const [selectedValue, setSelectedValue] = React.useState("a");
-
   const handleChange = (event) => {
     setSelectedValue(event.target.value);
   };
@@ -24,14 +24,15 @@ const Payment = () => {
     <div className="container">
       <section className="container py-4">
         <div className="d-flex ">
-          <p style={{ color: "#7C90B8" }}>
-            <FontAwesomeIcon
-              style={{ corlo: "#7C90B8" }}
-              icon={faArrowLeft}
-            ></FontAwesomeIcon>
-            Back
-          </p>
-
+          <Link style={{ textDecoration: "none" }} to="/">
+            <p style={{ color: "#7C90B8" }}>
+              <FontAwesomeIcon
+                style={{ corlo: "#7C90B8" }}
+                icon={faArrowLeft}
+              ></FontAwesomeIcon>
+              Back
+            </p>
+          </Link>
           <h4 className="text-center text-dark mx-auto">Payment</h4>
         </div>
       </section>

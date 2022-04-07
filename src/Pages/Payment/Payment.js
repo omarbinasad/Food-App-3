@@ -44,12 +44,12 @@ const Payment = () => {
           style={{ backgroundColor: "#01058B" }}
           className="w-100 formCard container"
         >
-          <Card.Body>
+          <Card.Body className="payment-card-body">
             <div className="d-flex justify-content-between">
               <div className="d-flex align-items-center">
                 <img
                   style={{ width: "74px", height: "23px" }}
-                  className="d-flex align-items-center"
+                  className=" d-flex align-items-center"
                   src="https://i.ibb.co/NCf8nDZ/path3789.png"
                 ></img>
                 <div>
@@ -75,7 +75,7 @@ const Payment = () => {
           style={{ backgroundColor: "#121A2C" }}
           className="w-100 formCard container"
         >
-          <Card.Body>
+          <Card.Body className="payment-card-body">
             <div className="d-flex justify-content-between ">
               <div className="d-flex  align-items-center">
                 <img
@@ -106,7 +106,7 @@ const Payment = () => {
           style={{ backgroundColor: "#E1EBEB " }}
           className="w-100 formCard container"
         >
-          <Card.Body>
+          <Card.Body className="payment-card-body">
             <div className="d-flex justify-content-between ">
               <div className="d-flex  align-items-center">
                 <img
@@ -137,7 +137,7 @@ const Payment = () => {
           style={{ backgroundColor: "#ECF6FF " }}
           className="w-100 formCard container"
         >
-          <Card.Body>
+          <Card.Body className="payment-card-body">
             <div className="d-flex justify-content-between">
               <div className="d-flex  align-items-center">
                 <img
@@ -172,17 +172,18 @@ const Payment = () => {
         </div>
 
         <section className="d-flex justify-content-between my-4 mx-auto">
-          <div className="">
-            <p className="text-dark w-100 mb-1">Total Price</p>
+          <div className="payment-totalPrice-text-div">
+            <p className=" text-dark w-100 mb-1">Total Price</p>
             <h4 className="text-dark">$50.40</h4>
           </div>
-
-          <button
-            style={{ height: "60px", width: "200px" }}
-            className="button-praimary "
-          >
-            Place Order{" "}
-          </button>
+          <Link to="/thanks-for-order">
+            <button
+              // style={{ height: "60px", width: "200px" }}
+              className="payment-place-order-btn button-praimary "
+            >
+              Place Order
+            </button>
+          </Link>
         </section>
       </section>
     </div>

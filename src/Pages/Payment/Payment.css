@@ -1,21 +1,51 @@
+.delivery-adress-title {
+  font-family: "Baloo Da 2";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  color: #141e38;
+}
+.orderForm-div > .orderForm > input {
+  width: 100%;
+  padding: 14px;
+  background: #ecf6ff;
+  border: 1px solid #bacae4;
+  box-sizing: border-box;
+  box-shadow: inset 4px 4px 5px rgba(158, 171, 214, 0.15);
+  border-radius: 45px;
+}
+.payment-place-order-btn {
+  width: 200px;
+  height: 60px;
+}
+.delivery-tableNo-text {
+  margin-bottom: 7px;
+}
 
-.delivery-adress-title{
-    font-family: 'Baloo Da 2';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 40px; 
-    color: #141E38;
+@media screen and (min-height: 500px) and (max-height: 810px) {
+  .payment-card-body {
+    padding: 6px;
+  }
+  .payment-card-body img {
+    width: 20% !important;
+    height: auto !important;
+  }
+  .payment-card-body p {
+    font-size: 12px;
+    margin-bottom: 0;
+  }
 }
-.orderForm-div > .orderForm> input{
-    width: 100%;
-padding: 14px;
-background: #ECF6FF;
-border: 1px solid #BACAE4;
-box-sizing: border-box;
-box-shadow: inset 4px 4px 5px rgba(158, 171, 214, 0.15);
-border-radius: 45px;
-}
-.delivery-tableNo-text{
-    margin-bottom: 7px;
+@media screen and (max-width: 300px) {
+  .payment-place-order-btn {
+    width: 100px;
+    height: 40px;
+    font-size: 12px;
+  }
+  .payment-totalPrice-text-div p {
+    font-size: 13px;
+  }
+  .payment-totalPrice-text-div h4 {
+    font-size: 16px !important;
+  }
 }

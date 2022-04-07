@@ -21,12 +21,15 @@
 }
 .bestOffer-div {
   width: 250px;
-  height:100px;
+  height: 100px;
   flex: 0 0 auto;
   display: flex;
   background-color: #f9bf6a;
   border-radius: 10px;
   padding: 5px;
+}
+.bestOffer-div:nth-child(2n) {
+  background-color: #ffdbaf;
 }
 .bestOffers-title-div {
   display: flex;
@@ -72,11 +75,6 @@
 .bestOffers-btn i {
   font-size: 30px;
   color: #ff5c00;
-}
-
-.bestOffer-div:nth-child(2n) {
-  
-  background-color: #ffdbaf;
 }
 
 /* media queries for mobile phone  */

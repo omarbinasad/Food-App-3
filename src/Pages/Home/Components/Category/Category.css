@@ -22,12 +22,19 @@
 }
 .categories-div {
   display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
   gap: 0px 10px;
   margin: 20px 0px;
 }
+.categories-div::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
 .categories-div p {
+  flex: 0 0 auto;
   margin: 0;
-  padding: 10px 20px;
+  padding: 14px 35px;
   font-size: 14px;
   border-radius: 14px;
   border: 1px solid #bacae4;
@@ -45,5 +52,8 @@
 @media screen and (max-width: 768px) {
   .categories-div p {
     font-size: 12px;
+  }
+  .categories-div {
+    margin: 20px 0px 0px 0px;
   }
 }

@@ -3,8 +3,8 @@ import "./SelectedItems.css";
 
 const SelectedItems = () => {
   return (
-    <div className="px-4">
-      <h3 style={{ color: "#ff5c00" }} className="">
+    <div className=" px-4">
+      <h3 style={{ color: "#ff5c00" }} className="selected-title">
         You've Selected
       </h3>
       <div className="toasts-div">
@@ -17,7 +17,7 @@ const SelectedItems = () => {
         >
           <div className="d-flex">
             <div
-              style={{ fontFamily: "Baloo Da", fontWeight: "600" }}
+              style={{ fontFamilly: "Baloo Da 2", fontWeight: "600" }}
               className="toast-body"
             >
               Regular
@@ -46,7 +46,7 @@ const SelectedItems = () => {
         >
           <div className="d-flex">
             <div
-              style={{ fontFamily: "Baloo Da", fontWeight: "600" }}
+              style={{ fontFamilly: "Baloo Da", fontWeight: "600" }}
               className="toast-body"
             >
               BBQ Sauce
@@ -76,7 +76,7 @@ const SelectedItems = () => {
         >
           <div className="d-flex">
             <div
-              style={{ fontFamily: "Baloo Da", fontWeight: "600" }}
+              style={{ fontFamilly: "Baloo Da", fontWeight: "600" }}
               className="toast-body"
             >
               Onion Rings
@@ -107,7 +107,7 @@ const SelectedItems = () => {
         >
           <div className="d-flex">
             <div
-              style={{ fontFamily: "Baloo Da", fontWeight: "600" }}
+              style={{ fontFamilly: "Baloo Da", fontWeight: "600" }}
               className="toast-body"
             >
               Chees

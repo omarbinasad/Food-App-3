@@ -88,6 +88,9 @@
   .bestOffers-btn i {
     font-size: 80%;
   }
+  .bestOffers-div-main{
+    margin: 0 0px;
+  }
 }
 
 /* media queries for tab  */
@@ -101,4 +104,5 @@
   .bestOffers-btn i {
     font-size: 100%;
   }
+ 
 }

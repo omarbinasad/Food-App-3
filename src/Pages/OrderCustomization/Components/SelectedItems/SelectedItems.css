@@ -12,3 +12,10 @@
 .toast button {
   background-color: transparent;
 }
+
+@media screen and (max-width: 600px) {
+  .selected-title{
+    font-size: 17px;
+  }
+  
+}

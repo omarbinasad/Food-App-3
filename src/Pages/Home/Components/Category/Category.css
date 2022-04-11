@@ -34,9 +34,9 @@
 .categories-div p {
   flex: 0 0 auto;
   margin: 0;
-  padding: 14px 35px;
+  padding: 10px 26px;
   font-size: 14px;
-  border-radius: 14px;
+  border-radius: 25px;
   border: 1px solid #bacae4;
   cursor: pointer;
 }

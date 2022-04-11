@@ -15,7 +15,7 @@ const Cards = () => {
         <SingleCard />
         <SingleCard />
       </div>
-      <div className="cards-exp-btn-div mt-5">
+      <div className="cards-exp-btn-div mt-4">
         <button
           className="cards-exp-btn btn"
           data-bs-toggle="collapse"

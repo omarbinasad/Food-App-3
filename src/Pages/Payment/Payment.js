@@ -37,7 +37,7 @@ const Payment = () => {
         </div>
       </section>
       <section className="container">
-        <h3>Payment Method</h3>
+        <h3 className="delivery-adress-title">Payment Method</h3>
       </section>
       <section className="my-2">
         <Card
@@ -49,11 +49,11 @@ const Payment = () => {
               <div className="d-flex align-items-center">
                 <img
                   style={{ width: "74px", height: "23px" }}
-                  className=" d-flex align-items-center"
+                  className="visa-img d-flex align-items-center"
                   src="https://i.ibb.co/NCf8nDZ/path3789.png"
                 ></img>
                 <div>
-                  <p className="text-white ms-2 ">
+                  <p className="payment-method text-white ms-2 ">
                     Debit Card <br></br> <span> 9520**** ****2142 </span>
                   </p>
                 </div>
@@ -79,12 +79,12 @@ const Payment = () => {
             <div className="d-flex justify-content-between ">
               <div className="d-flex  align-items-center">
                 <img
-                  style={{ width: "74px", height: "62px" }}
-                  className="d-flex align-items-center"
+                  style={{ width: "74px", height: "42px" }}
+                  className="master-img d-flex align-items-center"
                   src="https://logos-world.net/wp-content/uploads/2020/09/Mastercard-Logo.png"
                 ></img>
                 <div>
-                  <p className="text-white ms-2 ">
+                  <p className="payment-method text-white ms-2 ">
                     Debit Card <br></br> <span> 9520**** ****2142 </span>
                   </p>
                 </div>
@@ -115,7 +115,7 @@ const Payment = () => {
                   src="https://i.ibb.co/VqwCMQp/image-353.png"
                 ></img>
                 <div>
-                  <p className="text-dark ms-2 ">
+                  <p className="paypal-img payment-method text-dark ms-2 ">
                     Debit Card <br></br> <span> 9520**** ****2142 </span>
                   </p>
                 </div>
@@ -142,11 +142,13 @@ const Payment = () => {
               <div className="d-flex  align-items-center">
                 <img
                   style={{ width: "74px", height: "62px" }}
-                  className="d-flex align-items-center"
+                  className="paycash-img d-flex align-items-center"
                   src="https://i.ibb.co/xmxgj9j/Insurance-Business-protect-money-logo-by-DEEMKA-STUDIO-580x406-removebg-preview.png"
                 ></img>
                 <div>
-                  <p className="text-dark ms-2 ">I Will Pay HandCash</p>
+                  <p className="payment-method text-dark ms-2 ">
+                    I Will Pay HandCash
+                  </p>
                 </div>
               </div>
               <Radio
@@ -161,7 +163,7 @@ const Payment = () => {
         </Card>
       </section>
 
-      <section className=" container mt-3">
+      <section className="container mt-3">
         <h3 className="delivery-adress-title">Delivery Address</h3>
         <p className="delivery-tableNo-text">Table no: (Optional)</p>
 

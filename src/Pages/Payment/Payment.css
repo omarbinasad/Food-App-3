@@ -6,6 +6,10 @@
   line-height: 40px;
   color: #141e38;
 }
+.payment-method{
+  font-family: "Baloo Da 2";
+  font-weight: 700 !important;
+}
 .orderForm-div > .orderForm > input {
   width: 100%;
   padding: 14px;
@@ -28,13 +32,16 @@
     padding: 6px;
   }
   .payment-card-body img {
-    width: 20% !important;
+    width: 34px !important;
     height: auto !important;
   }
   .payment-card-body p {
     font-size: 12px;
     margin-bottom: 0;
   }
+}
+@media screen and (max-height: 400px) {
+ 
 }
 @media screen and (max-width: 300px) {
   .payment-place-order-btn {

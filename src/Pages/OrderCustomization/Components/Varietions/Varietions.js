@@ -64,8 +64,9 @@ const Varietions = () => {
               marginBottom: "-35px",
               marginTop: "10px",
               color: "white",
-              fontSize: "20px",
+              fontSize: "18px",
               letterSpacing: "1px",
+              fontWeight: "600",
               fontFamily: "georgia",
             }}
           >
@@ -87,9 +88,9 @@ const Varietions = () => {
                 backgroundSize: "100%",
                 backgroundRepeat: "no-repeat",
                 backgroundPosition: "center",
-                width: "75px",
+                width: "65px",
                 marginLeft: "5px",
-                height: "50px",
+                height: "35px",
                 marginBottom: "-15px",
                 backgroundColor: "transparent",
               },
@@ -100,7 +101,7 @@ const Varietions = () => {
               sx={{
                 fontFamily: "Baloo Da 2",
                 textTransform: "capitalize",
-                margin: "40px 0px 30px 0px",
+                margin: "40px 0px 20px 0px",
                 color: "#fff",
               }}
               icon={
@@ -118,7 +119,7 @@ const Varietions = () => {
               sx={{
                 fontFamily: "Baloo Da 2",
                 textTransform: "capitalize",
-                margin: "40px 0px 30px 0px",
+                margin: "40px 0px 20px 0px",
                 color: "#fff",
               }}
               icon={
@@ -136,7 +137,7 @@ const Varietions = () => {
               sx={{
                 fontFamily: "Baloo Da 2",
                 textTransform: "capitalize",
-                margin: "40px 0px 30px 0px",
+                margin: "40px 0px 20px 0px",
                 color: "#fff",
               }}
               icon={
@@ -159,6 +160,7 @@ const Varietions = () => {
                 sx={{
                   color: "white",
                   backgroundColor: "#DF0000",
+                  boxShadow: "none",
 
                   "&:hover": {
                     backgroundColor: "#DF0000",
@@ -174,6 +176,7 @@ const Varietions = () => {
               <Fab
                 className="variations-fab-btn"
                 sx={{
+                  boxShadow: "none",
                   color: "white",
                   backgroundColor: "#3B9D23",
                   "&:hover": {
@@ -189,6 +192,7 @@ const Varietions = () => {
               <Fab
                 className="variations-fab-btn"
                 sx={{
+                  boxShadow: "none",
                   color: "white",
                   backgroundColor: "#DF0000",
                   "&:hover": {
@@ -205,6 +209,7 @@ const Varietions = () => {
               <Fab
                 className="variations-fab-btn"
                 sx={{
+                  boxShadow: "none",
                   color: "white",
                   backgroundColor: "#3B9D23",
                   "&:hover": {
@@ -220,6 +225,7 @@ const Varietions = () => {
               <Fab
                 className="variations-fab-btn"
                 sx={{
+                  boxShadow: "none",
                   color: "white",
                   backgroundColor: "#DF0000",
                   "&:hover": {
@@ -236,6 +242,7 @@ const Varietions = () => {
               <Fab
                 className="variations-fab-btn"
                 sx={{
+                  boxShadow: "none",
                   color: "white",
                   backgroundColor: "#3B9D23",
                   "&:hover": {
@@ -251,6 +258,7 @@ const Varietions = () => {
               <Fab
                 className="variations-fab-btn"
                 sx={{
+                  boxShadow: "none",
                   color: "white",
                   backgroundColor: "#DF0000",
                   "&:hover": {
@@ -267,6 +275,7 @@ const Varietions = () => {
               <Fab
                 className="variations-fab-btn"
                 sx={{
+                  boxShadow: "none",
                   color: "white",
                   backgroundColor: "#3B9D23",
                   "&:hover": {
@@ -282,6 +291,7 @@ const Varietions = () => {
               <Fab
                 className="variations-fab-btn"
                 sx={{
+                  boxShadow: "none",
                   color: "white",
                   backgroundColor: "#DF0000",
                   "&:hover": {
@@ -298,6 +308,7 @@ const Varietions = () => {
               <Fab
                 className="variations-fab-btn"
                 sx={{
+                  boxShadow: "none",
                   color: "white",
                   backgroundColor: "#3B9D23",
                   "&:hover": {
@@ -317,6 +328,7 @@ const Varietions = () => {
               <Fab
                 className="variations-fab-btn"
                 sx={{
+                  boxShadow: "none",
                   color: "white",
                   backgroundColor: "#DF0000",
 
@@ -334,6 +346,7 @@ const Varietions = () => {
               <Fab
                 className="variations-fab-btn"
                 sx={{
+                  boxShadow: "none",
                   color: "white",
                   backgroundColor: "#3B9D23",
                   "&:hover": {
@@ -349,6 +362,7 @@ const Varietions = () => {
               <Fab
                 className="variations-fab-btn"
                 sx={{
+                  boxShadow: "none",
                   color: "white",
                   backgroundColor: "#DF0000",
                   "&:hover": {
@@ -365,6 +379,7 @@ const Varietions = () => {
               <Fab
                 className="variations-fab-btn"
                 sx={{
+                  boxShadow: "none",
                   color: "white",
                   backgroundColor: "#3B9D23",
                   "&:hover": {
@@ -384,6 +399,7 @@ const Varietions = () => {
               <Fab
                 className="variations-fab-btn"
                 sx={{
+                  boxShadow: "none",
                   color: "white",
                   backgroundColor: "#DF0000",
 
@@ -401,6 +417,7 @@ const Varietions = () => {
               <Fab
                 className="variations-fab-btn"
                 sx={{
+                  boxShadow: "none",
                   color: "white",
                   backgroundColor: "#3B9D23",
                   "&:hover": {
@@ -416,6 +433,7 @@ const Varietions = () => {
               <Fab
                 className="variations-fab-btn"
                 sx={{
+                  boxShadow: "none",
                   color: "white",
                   backgroundColor: "#DF0000",
                   "&:hover": {
@@ -432,6 +450,7 @@ const Varietions = () => {
               <Fab
                 className="variations-fab-btn"
                 sx={{
+                  boxShadow: "none",
                   color: "white",
                   backgroundColor: "#3B9D23",
                   "&:hover": {
@@ -448,6 +467,7 @@ const Varietions = () => {
               <Fab
                 className="variations-fab-btn"
                 sx={{
+                  boxShadow: "none",
                   color: "white",
                   backgroundColor: "#DF0000",
                   "&:hover": {
@@ -464,6 +484,7 @@ const Varietions = () => {
               <Fab
                 className="variations-fab-btn"
                 sx={{
+                  boxShadow: "none",
                   color: "white",
                   backgroundColor: "#3B9D23",
                   "&:hover": {
